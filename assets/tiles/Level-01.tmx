@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="12" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="80">
+ <tileset firstgid="1" source="tileset.tsx"/>
+ <tileset firstgid="101" source="tileset2.tsx"/>
+ <layer id="2" name="Fondo" width="12" height="12">
+  <data encoding="csv">
+79,79,79,79,79,79,79,79,79,79,79,79,
+79,79,79,79,79,79,79,79,79,79,79,79,
+79,79,79,79,79,79,79,79,79,79,79,79,
+79,79,79,79,79,79,79,79,79,79,79,79,
+79,79,79,79,79,79,79,79,79,79,79,79,
+79,79,79,79,79,79,79,79,79,79,79,79,
+79,79,79,79,79,79,79,79,79,79,79,79,
+79,79,79,79,79,79,79,79,79,79,79,79,
+79,79,79,79,79,79,79,79,79,79,79,79,
+79,79,79,79,79,79,79,79,79,79,79,79,
+79,79,79,79,79,79,79,79,79,79,79,79,
+79,79,79,79,79,79,79,79,79,79,79,79
+</data>
+ </layer>
+ <layer id="1" name="Mapa" width="12" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,1,2,3,4,5,2,3,4,5,6,0,
+0,11,12,13,14,13,14,13,14,15,16,0,
+0,21,22,7,8,9,7,8,9,25,26,0,
+0,31,22,17,18,19,17,18,19,25,36,0,
+0,1,22,27,28,29,27,28,29,25,6,0,
+0,11,22,7,8,9,7,8,9,25,16,0,
+0,21,22,17,18,19,17,18,19,25,6,0,
+0,31,22,27,28,29,27,28,29,25,16,0,
+0,1,32,33,34,33,34,33,34,35,6,0,
+0,41,42,43,44,45,42,43,44,45,46,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="Collisions" visible="0">
+  <object id="21" name="Wall" type="Wall" x="32" y="16" width="16" height="16"/>
+  <object id="22" name="Wall" type="Wall" x="48" y="16" width="16" height="16"/>
+  <object id="23" name="Wall" type="Wall" x="64" y="16" width="16" height="16"/>
+  <object id="24" name="Wall" type="Wall" x="80" y="16" width="16" height="16"/>
+  <object id="25" name="Wall" type="Wall" x="96" y="16" width="16" height="16"/>
+  <object id="26" name="Wall" type="Wall" x="112" y="16" width="16" height="16"/>
+  <object id="27" name="Wall" type="Wall" x="128" y="16" width="16" height="16"/>
+  <object id="28" name="Wall" type="Wall" x="144" y="16" width="16" height="16"/>
+  <object id="29" name="Wall" type="Wall" x="160" y="32" width="16" height="16"/>
+  <object id="30" name="Wall" type="Wall" x="160" y="48" width="16" height="16"/>
+  <object id="31" name="Wall" type="Wall" x="160" y="64" width="16" height="16"/>
+  <object id="32" name="Wall" type="Wall" x="160" y="80" width="16" height="16"/>
+  <object id="33" name="Wall" type="Wall" x="160" y="96" width="16" height="16"/>
+  <object id="34" name="Wall" type="Wall" x="160" y="112" width="16" height="16"/>
+  <object id="35" name="Wall" type="Wall" x="160" y="128" width="16" height="16"/>
+  <object id="36" name="Wall" type="Wall" x="160" y="144" width="16" height="16"/>
+  <object id="37" name="Wall" type="Wall" x="128" y="160" width="16" height="16"/>
+  <object id="38" name="Wall" type="Wall" x="144" y="160" width="16" height="16"/>
+  <object id="39" name="Wall" type="Wall" x="96" y="160" width="16" height="16"/>
+  <object id="40" name="Wall" type="Wall" x="112" y="160" width="16" height="16"/>
+  <object id="41" name="Wall" type="Wall" x="64" y="160" width="16" height="16"/>
+  <object id="42" name="Wall" type="Wall" x="80" y="160" width="16" height="16"/>
+  <object id="43" name="Wall" type="Wall" x="32" y="160" width="16" height="16"/>
+  <object id="44" name="Wall" type="Wall" x="48" y="160" width="16" height="16"/>
+  <object id="49" name="Wall" type="Wall" x="16" y="144" width="16" height="16"/>
+  <object id="50" name="Wall" type="Wall" x="16" y="128" width="16" height="16"/>
+  <object id="51" name="Wall" type="Wall" x="16" y="112" width="16" height="16"/>
+  <object id="52" name="Wall" type="Wall" x="16" y="96" width="16" height="16"/>
+  <object id="53" name="Wall" type="Wall" x="16" y="80" width="16" height="16"/>
+  <object id="54" name="Wall" type="Wall" x="16" y="64" width="16" height="16"/>
+  <object id="55" name="Wall" type="Wall" x="16" y="48" width="16" height="16"/>
+  <object id="56" name="Wall" type="Wall" x="16" y="32" width="16" height="16"/>
+  <object id="57" name="Obstacle" type="Wall" x="48" y="64" width="16" height="16"/>
+  <object id="58" name="Obstacle" type="Wall" x="64" y="96" width="16" height="16"/>
+  <object id="59" name="Obstacle" type="Wall" x="96" y="64" width="16" height="16"/>
+  <object id="60" name="Obstacle" type="Wall" x="112" y="32" width="16" height="16"/>
+  <object id="61" name="Obstacle" type="Wall" x="128" y="32" width="16" height="16"/>
+  <object id="63" name="Obstacle" type="Wall" x="96" y="128" width="16" height="16"/>
+  <object id="66" name="Trap-spikes" x="128" y="80" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup id="3" name="SpawnPoints">
+  <object id="1" name="Player" type="Player" x="40" y="22" width="32" height="32"/>
+  <object id="3" name="Spikes" type="Spikes" x="128" y="80" width="16" height="16"/>
+  <object id="68" name="Pyramid-top" type="Top_Obstacles" x="48" y="48" width="16" height="16"/>
+  <object id="70" name="Column-down" type="Down_Obstacles" x="96" y="64" width="16" height="16"/>
+  <object id="72" name="Pyramid-down" type="Down_Obstacles" x="48" y="64" width="16" height="16"/>
+  <object id="73" name="Column-top" type="Top_Obstacles" x="96" y="48" width="16" height="16"/>
+  <object id="76" name="Pyramid-top" type="Top_Obstacles" x="96" y="112" width="16" height="16"/>
+  <object id="77" name="Pyramid-down" type="Down_Obstacles" x="96" y="128" width="16" height="16"/>
+  <object id="78" name="Column-down" type="Down_Obstacles" x="64" y="96" width="16" height="16"/>
+  <object id="79" name="Column-top" type="Top_Obstacles" x="64" y="80" width="16" height="16"/>
+ </objectgroup>
+</map>
